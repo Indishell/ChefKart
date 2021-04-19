@@ -1,0 +1,40 @@
+
+body, html {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.selectedRow {
+    background-color: rgba(205, 207, 221, 0.26) ;
+    color : white;
+    transition: transform .2s ease-out; 
+}
+
+.selectedRow:hover {
+    background-color: rgb(59, 79, 105);
+    color: gray;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: scale(1.05); 
+}
+
+/* 
+.selectedRow .teamName:hover {
+    text-decoration: underline;
+    overflow: hidden;
+
+} */
+
+
+
+.finished-match {
+    border-radius: 8px;
+    color: black;
+    background-color:#dce2e9;
+    font-size:1.1em;
+    border:0;
+    cursor:pointer;
+}
