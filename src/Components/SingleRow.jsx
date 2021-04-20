@@ -7,9 +7,9 @@ const URL = 'https://img.onesignal.com/permanent/f9d912e9-ea0d-455b-b997-b2619fb
 
 const SingleRow = (props) => {
     return (
-
+        
         <>
-        <Row className = "selectedRow">
+        <Row className = "selectedRow w-100">
 
                 <Col className = "sm px-3 text-center pt-3">
                     <p>
